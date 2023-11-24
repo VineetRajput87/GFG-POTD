@@ -15,7 +15,6 @@ public:
             next.push_back(1LL);
             prev = next;
         }
-    
         return prev;
     }
 };
