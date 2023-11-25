@@ -3,7 +3,6 @@ class Solution{
 	void shuffleArray(int a[],int n)
 	{
 	   int k = n / 2 - 1;
-
         for (int i = n - 1; i >= n / 2; i--) {
             a[i] <<= 10;
             a[i] |= a[k];
