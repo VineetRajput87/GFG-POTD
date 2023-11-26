@@ -1,6 +1,6 @@
 class Solution{
 public:
-    void solve(vector<int> &list, int n, bool flag, int k) {
+    void solve(vector<int> &list, int n, bool flag, int k) { 
         list.push_back(n);
         if (flag && n > 0) solve(list, n - 5, flag, k); 
         if(n<=0) solve(list,n+5,false,k);
