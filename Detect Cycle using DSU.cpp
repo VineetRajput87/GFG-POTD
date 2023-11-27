@@ -11,7 +11,7 @@ class Solution{
 	    map<pair<int, int>, int> mp;
 	    for(int i = 0; i < n; i++){
 	        parent[i] = i;
-	    }
+	    } 
 	    for(int i = 0; i < n; i++){
 	        for(int j = 0; j < adj[i].size(); j++){
 	            int a = i;
