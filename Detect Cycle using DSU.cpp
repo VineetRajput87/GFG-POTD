@@ -3,7 +3,7 @@ class Solution{
     int findparent(int vertex, vector<int>& parent){
         if(vertex == parent[vertex]){
             return vertex;
-        }
+        } 
         return parent[vertex] = findparent(parent[vertex], parent);
     }
 	int detectCycle(int n, vector<int>adj[]){
