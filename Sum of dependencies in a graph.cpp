@@ -1,6 +1,6 @@
 // User function Template for C++
 
-class Solution {
+class Solution { 
   public: 
     int sumOfDependencies(vector<int> adj[], int V) {
         // code here
