@@ -1,6 +1,6 @@
 class Solution {
 public:
-	int isEulerCircuit(int V, vector<int>adj[]){ 
+	int isEulerCircuit(int V, vector<int>adj[]){  
 	    // Code here
 	    int cnt=0;
         for(int i=0;i<V;i++){
