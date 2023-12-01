@@ -3,7 +3,7 @@ class Solution{
     void storeNodes(Node * root, unordered_set<int> &st,unordered_set<int> &leafset){
         if (root == NULL)
             return ; 
-        
+         
         st.insert(root->data);
         if (root->left==NULL && root->right==NULL)
         {
