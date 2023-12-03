@@ -3,7 +3,7 @@ class Solution
 public:
     void inorder(Node* root, unordered_set<int>& b1){
         if(!root) return;
-        inorder(root->left,b1);
+        inorder(root->left,b1); 
         b1.insert(root->data);
         inorder(root->right,b1);
     }
