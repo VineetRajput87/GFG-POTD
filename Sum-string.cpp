@@ -4,7 +4,7 @@ public:
         int i = num1.length() - 1;
         int j = num2.length() - 1;
         string output = "";
-        int carry = 0;
+        int carry = 0; 
         while(i >= 0 or j >= 0 or carry){
             int sum = carry;
             if(i >= 0){
