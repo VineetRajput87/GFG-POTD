@@ -12,7 +12,7 @@ public:
             }
             if(j >= 0){
                 sum += num2[j--] - '0';
-            }
+            } 
             int rem = sum%10;
             carry = sum/10;
             output.push_back(rem + '0');
