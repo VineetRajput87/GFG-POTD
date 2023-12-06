@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     int countX(int L, int R, int X) {
         // code here
         int count =0; 
