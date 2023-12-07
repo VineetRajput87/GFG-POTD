@@ -3,7 +3,7 @@ class Solution{
     long countSubarrays(int a[], int n, int L, int R)
     {
         long ans=0;
-        long btwLR=0, lessL=0 ; 
+        long btwLR=0, lessL=0 ;  
         for(int i=0;i<n;i++){
             if(a[i]<L){
                 ans+=btwLR;
