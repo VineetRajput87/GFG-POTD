@@ -2,7 +2,7 @@ class Solution
 {
     public int minNumber(int arr[], int N)
     {
-        int sum = 0;
+        int sum = 0; 
         for(int x: arr) sum+=x;
         int ts = sum;
         
