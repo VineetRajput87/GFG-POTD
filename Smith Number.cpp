@@ -2,7 +2,7 @@ class Solution {
 public:
     static int smithNum(int n) {
         if (digitSum(n) == primeFSum(n)) {
-            return 1;
+            return 1; 
         }
         return 0;
     }
