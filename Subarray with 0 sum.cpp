@@ -6,7 +6,7 @@ class Solution{
     {
        unordered_set<int> set; 
         int sum = 0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) { 
             set.insert(sum);
             sum = sum + arr[i];
 
