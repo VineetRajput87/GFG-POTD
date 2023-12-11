@@ -1,4 +1,4 @@
-class Solution{   
+class Solution{  
 public:
     long maximumSumSubarray(int K, vector<int> &Arr , int N){
        long  ans = 0, sum = 0;
