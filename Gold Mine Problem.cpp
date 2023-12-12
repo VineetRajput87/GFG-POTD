@@ -3,7 +3,7 @@ public:
     int maxGold(int n, int m, vector<vector<int>> M)
     {
         // code here
-         vector<vector<int>> arr(n, vector<int>(m, 0));
+         vector<vector<int>> arr(n, vector<int>(m, 0)); 
 
         for (int j = m - 1; j >= 0; j--) {
             for (int i = 0; i < n; i++) {
