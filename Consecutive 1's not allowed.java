@@ -1,5 +1,5 @@
 class Solution {
-    long countStrings(int n) {
+    long countStrings(int n) { 
         // code here
         if(n==1) return 2;
         long one = 1, zero = 1, total = one+zero;
