@@ -4,7 +4,7 @@ class Solution {
         if(n==1) return 2;
         long one = 1, zero = 1, total = one+zero;
         
-        while(n-->1){
+        while(n-->1){ 
             one = zero;
             zero = total;
             total = (one + zero)%1000000007;
