@@ -1,5 +1,5 @@
 class Solution{
-    public:
+    public: 
     long long countWays(int n, int k){ 
         // code here
         long mod = 1000000007;
