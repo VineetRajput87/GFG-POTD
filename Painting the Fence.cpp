@@ -1,6 +1,6 @@
 class Solution{
     public:
-    long long countWays(int n, int k){
+    long long countWays(int n, int k){ 
         // code here
         long mod = 1000000007;
         long same = 0, diff = k, total = same+diff;
