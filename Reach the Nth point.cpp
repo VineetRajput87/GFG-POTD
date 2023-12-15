@@ -4,7 +4,7 @@ class Solution{
 		    // Code here
 		    int mod = 1000000007;
 		    int a = 1, b = 2;
-		    if(n<3) return n;
+		    if(n<3) return n; 
 		    
 		    for(int i=3; i<=n; i++){
 		        int temp = a;
