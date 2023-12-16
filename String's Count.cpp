@@ -1,6 +1,6 @@
 long long int countStr(long long int n){
 
-	    // all a       --> 1
+	    // all a       --> 1 
 	    // 1b and a    --> n
 	    // 1c and a    --> n
 	    // 2c and a    --> n*(n-1)/2
