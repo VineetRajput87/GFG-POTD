@@ -1,7 +1,7 @@
 class Solution{
 public:	
 	// calculate the maximum sum with out adjacent
-	int findMaxSum(int *arr, int n) {
+	int findMaxSum(int *arr, int n) { 
 	    // code here
 	    if(n==1) return arr[0];
 	    
