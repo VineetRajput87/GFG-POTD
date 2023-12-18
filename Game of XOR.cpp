@@ -1,7 +1,7 @@
 class Solution {
   public:
     int gameOfXor(int N , int A[]) {
-        // code here
+        // code here 
         int x = 0;
         
         for(int i=0; i<N; i++){
