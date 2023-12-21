@@ -1,5 +1,5 @@
 class Solution {
-    static int minCandy(int n, int rat[]) {
+    static int minCandy(int n, int rat[]) { 
         // code here
         int arr[] = new int[n];
         arr[n-1] = 1;
