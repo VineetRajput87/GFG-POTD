@@ -3,7 +3,7 @@ public:
     vector<int> maxMeetings(int N,vector<int> &S,vector<int> &F){
         vector<int> ans;
         vector<pair<int,pair<int,int>>> temp;
-        for(int i=0;i<N;i++){
+        for(int i=0;i<N;i++){ 
             temp.push_back({F[i],{i,S[i]}});
         } 
         sort(temp.begin(),temp.end());
