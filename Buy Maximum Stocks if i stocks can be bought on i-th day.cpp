@@ -2,7 +2,7 @@ class Solution {
 public:
     int buyMaximumProducts(int n, int k, int price[]) {
         // code here 
-        long long arr[n];
+        long long arr[n]; 
         for (int i = 0; i < n; i++) {
             arr[i] = (long long)price[i] * 100000 + (i + 1);
         }
