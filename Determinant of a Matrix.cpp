@@ -1,7 +1,7 @@
 class Solution
 {   
     private:
-    int solve(vector<vector<int>> &mat, int n)
+    int solve(vector<vector<int>> &mat, int n) 
     {
         if(n == 2)
         {
