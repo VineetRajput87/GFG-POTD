@@ -1,6 +1,6 @@
 class Solution
 {   
-    private:
+    private: 
     int solve(vector<vector<int>> &mat, int n) 
     {
         if(n == 2)
