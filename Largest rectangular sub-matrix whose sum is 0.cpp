@@ -9,7 +9,7 @@ public:
             for (int j = i; j < m; j++) {
                 for (int k = 0; k < n; k++) {
                     arr[k] += a[k][j];
-                }
+                } 
                 int s = 0, e = 0;
                 int len = maxLen(arr, s, e);
 
