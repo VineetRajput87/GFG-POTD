@@ -4,7 +4,7 @@ public:
         int n = a.size(), m = a[0].size();
         int c1 = 0, c2 = 0, r1 = 0, r2 = 0, maxArea = -1001;
 
-        for (int i = 0; i < m; i++) {
+        for (int i = 0; i < m; i++) { 
             vector<int> arr(n, 0);
             for (int j = i; j < m; j++) {
                 for (int k = 0; k < n; k++) {
