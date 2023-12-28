@@ -7,7 +7,7 @@ class Solution{
 
         arr[n][m] = 1;
 
-        for (int i = n - 1; i >= 0; i--) {
+        for (int i = n - 1; i >= 0; i--) { 
             for (int j = m - 1; j >= 0; j--) {
                 if (wild[i] == pattern[j] && arr[i + 1][j + 1] == 1) {
                     arr[i][j] = 1;
