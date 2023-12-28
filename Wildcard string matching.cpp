@@ -1,7 +1,7 @@
 class Solution{
     public:
     bool match(string wild, string pattern)
-    {
+    { 
         int n = wild.length(), m = pattern.length();
         vector<vector<int>> arr(n + 1, vector<int>(m + 1, 0));
 
