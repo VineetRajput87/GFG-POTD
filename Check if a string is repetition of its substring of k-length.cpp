@@ -1,6 +1,6 @@
 class Solution{
 public:
-	
+	 
 	int kSubstrConcat(int n, string s, int k) {
         if (n % k != 0) return 0;
     
