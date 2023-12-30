@@ -1,7 +1,7 @@
 class Solution{
     public:
     vector<string> winner(string a[],int n) {
-        int i, maxi=0;
+        int i, maxi=0; 
         vector<string> v;
         unordered_map<string, int> mp;
         for(i=0;i<n;i++) mp[a[i]]++;
