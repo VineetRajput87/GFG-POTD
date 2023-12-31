@@ -6,7 +6,7 @@ class Solution {
             return 1; 
         }
         if(i>=N){
-            return 0;
+            return 0; 
         }
         if(dp[i][sum]!=-1){
             return dp[i][sum];
