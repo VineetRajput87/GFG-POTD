@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     bool canPair(vector<int>& nums, int k) {
         if (nums.size() % 2 == 1) return false;
 
