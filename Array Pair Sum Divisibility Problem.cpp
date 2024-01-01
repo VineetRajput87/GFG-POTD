@@ -1,7 +1,7 @@
 class Solution {
 public: 
     bool canPair(vector<int>& nums, int k) {
-        if (nums.size() % 2 == 1) return false;
+        if (nums.size() % 2 == 1) return false; 
 
         vector<int> arr(k, 0);
         for (int i = 0; i < nums.size(); ++i) arr[nums[i] % k]++;
