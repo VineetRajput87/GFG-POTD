@@ -6,7 +6,7 @@ class Solution{
         long long int sum = 0;
         long long int last = 0; 
         long long int j = 0;
-        for(long long int i = 0; i < n; i++)
+        for(long long int i = 0; i < n; i++) 
         {
             sum += a[i];
             if(i - j + 1 == k)
