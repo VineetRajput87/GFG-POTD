@@ -5,7 +5,7 @@ public:
 
         for (int i = 0; i < S.length(); i++) {
             if (S[i] == '0') zero = i;
-            if (S[i] == '1') one = i;
+            if (S[i] == '1') one = i; 
             if (S[i] == '2') two = i;
 
             if (zero == -1 || one == -1 || two == -1) continue;
