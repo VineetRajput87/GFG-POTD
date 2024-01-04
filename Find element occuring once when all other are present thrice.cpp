@@ -4,7 +4,7 @@ class Solution {
         // code here
         int res = 0;
         for (int i = 0; i < 32; i++) {
-            int setbit = 0;
+            int setbit = 0; 
             for (int j = 0; j < N; j++) {
                 if ((arr[j] & (1 << i)) != 0) {
                     setbit++; 
