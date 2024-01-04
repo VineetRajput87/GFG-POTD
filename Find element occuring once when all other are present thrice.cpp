@@ -7,7 +7,7 @@ class Solution {
             int setbit = 0;
             for (int j = 0; j < N; j++) {
                 if ((arr[j] & (1 << i)) != 0) {
-                    setbit++;
+                    setbit++; 
                 }
             }
             if (setbit % 3 == 1) {
