@@ -1,7 +1,7 @@
 class Solution{
 	public:
 	int TotalWays(int N)
-	{
+	{ 
 	    // Code here
 	    int mod = 1000000007;
         long a = 1, b = 2, c = 2; 
