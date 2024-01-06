@@ -4,7 +4,7 @@ public:
 	    // Code here
 	    long sum = 0;
 
-        for (int i = a; i <= b; i++) {
+        for (int i = a; i <= b; i++) { 
             int x = i;
             for (int j = 2; j * j <= x; j++) {
                 while (x % j == 0) {
