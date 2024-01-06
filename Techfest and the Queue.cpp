@@ -5,7 +5,7 @@ public:
 	    long sum = 0;
 
         for (int i = a; i <= b; i++) { 
-            int x = i;
+            int x = i; 
             for (int j = 2; j * j <= x; j++) {
                 while (x % j == 0) {
                     sum++;
