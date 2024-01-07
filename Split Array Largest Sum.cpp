@@ -2,7 +2,7 @@ class Solution {
   public:
     int splitArray(int arr[] ,int N, int K) {
         int low = 0;
-        int high = 0;
+        int high = 0; 
         
         for(int i = 0; i < N; i++)
             high += arr[i], low = max(low, arr[i] - 1);
