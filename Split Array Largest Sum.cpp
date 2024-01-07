@@ -17,7 +17,7 @@ class Solution {
                 
                 for(int i = 0; i < N; i++){
                     if(sum + arr[i] > mid){
-                        ++cuts;
+                        ++cuts; 
                         sum = arr[i];
                     }
                     else{
