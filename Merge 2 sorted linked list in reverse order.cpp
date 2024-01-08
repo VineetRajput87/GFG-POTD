@@ -11,7 +11,6 @@ class Solution
             prev = node;
             node = next;
         }
-        
         return prev;
     }
     
