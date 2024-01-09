@@ -6,7 +6,7 @@ class Solution
             vector<int>ans;
             int n=txt.size();
             int m=pat.size();
-            if(n<m){
+            if(n<m){ 
                 return {-1};
             }
             for(int i=0;i<n-m+1;i++){
