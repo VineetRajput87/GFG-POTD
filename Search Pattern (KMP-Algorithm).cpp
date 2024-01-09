@@ -2,7 +2,7 @@ class Solution
 {
     public:
         vector <int> search(string pat, string txt)
-        {
+        { 
             vector<int>ans;
             int n=txt.size();
             int m=pat.size();
