@@ -11,7 +11,7 @@ public:
 	    for(int i = n - 1; i > -1; i--){
 	        sum = (sum + (arr[i] % k) + k) % k;
 	        
-	        if(!suffix.count(sum))
+	        if(!suffix.count(sum)) 
 	            suffix[sum] = i;
 	        else
 	            ans = max(ans, suffix[sum] - i);
