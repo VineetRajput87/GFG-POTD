@@ -5,7 +5,7 @@ class Solution {
         int n = S.size();
         int index = 0;
         
-        while(index < n){
+        while(index < n){ 
             if(S[index] != '0'){
                 if(K)
                     --K;
