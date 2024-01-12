@@ -1,7 +1,6 @@
 class Solution
 {
     public:
-    
     queue<int> modifyQueue(queue<int> q, int k) {
         // add code here.
         stack<int> st;
