@@ -6,7 +6,7 @@ class Solution
         stack<int> st;
         for(int i=0;i<k;i++){
             st.push(q.front());
-            q.pop();
+            q.pop(); 
         }
         int temp = q.size();
         while(st.size()){
