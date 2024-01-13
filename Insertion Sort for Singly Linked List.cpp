@@ -8,7 +8,7 @@ class Solution
                 return;
                  
             helper(cur -> next);
-            
+             
             int key = cur -> data;
             Node * next = cur -> next;
             
