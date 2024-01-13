@@ -6,7 +6,7 @@ class Solution
         function<void(Node *)> helper = [&](Node * cur) {
             if(!cur)
                 return;
-                
+                 
             helper(cur -> next);
             
             int key = cur -> data;
