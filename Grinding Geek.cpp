@@ -1,5 +1,5 @@
 class Solution{
-    public:
+    public: 
     int max_courses(int n, int total, vector<int> &cost)
     {
         vector<vector<int>> dp(n + 1, vector<int> (total + 1, 0));
