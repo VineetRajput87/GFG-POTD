@@ -5,7 +5,7 @@ class Solution {
         set<vector<int>> st;
         ans.push_back(arr);
         st.insert(arr);
-        if(n==1) return ans;
+        if(n==1) return ans; 
         while(true){
             int ind = -1;
             for(int i = n-2; i>=0; i--){
