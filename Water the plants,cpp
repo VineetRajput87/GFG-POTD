@@ -6,7 +6,7 @@ class Solution{
         
         for(int i = 0; i < n; i++){
             if(gallery[i] == -1)
-                cover[i] = {1e7, 1e7};
+                cover[i] = {1e7, 1e7}; 
             else
                 cover[i] = {i - gallery[i], i + gallery[i]};
         }
