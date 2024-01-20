@@ -6,7 +6,7 @@ class Solution
         map<Node *, int> subtree, candies;
         int ans = 0;
         
-        function<void(Node *)> dfs1 = [&](Node * node) {
+        function<void(Node *)> dfs1 = [&](Node * node) { 
             if(!node)
                 return;
                 
