@@ -10,7 +10,7 @@ class Solution{
         new_smallest = (ripple & -ripple);
         ones         = ((new_smallest/smallest) >> 1) - 1;
         return ripple | ones;
-    }
+    } 
     
     int vertexCover(int n, vector<pair<int, int>> &edges) {
         int ans = 20;
