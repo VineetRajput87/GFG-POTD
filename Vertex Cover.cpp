@@ -1,6 +1,6 @@
 class Solution{
     public:
-    
+     
     int next(int x){
         unsigned smallest, ripple, new_smallest, ones;
 
