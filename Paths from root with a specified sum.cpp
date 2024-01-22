@@ -4,7 +4,7 @@ class Solution
     vector<vector<int>> printPaths(Node *root, int sum)
     {
         vector<vector<int>> ans;
-        vector<int> path;
+        vector<int> path; 
         
         function<void(Node *, int)> dfs = [&](Node * node, int cur_sum) {
             if(!node)
