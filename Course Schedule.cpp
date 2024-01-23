@@ -10,7 +10,7 @@ class Solution
             g[prerequisites[i][1]].push_back(prerequisites[i][0]);
             ++in[prerequisites[i][0]];
         }
-        
+         
         queue<int> q;
         vector<int> ans;
         
