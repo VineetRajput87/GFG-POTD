@@ -4,7 +4,7 @@ class Solution
     vector<int> findOrder(int n, int m, vector<vector<int>> prerequisites) 
     {
         vector<vector<int>> g(n);
-        vector<int> in(n, 0);
+        vector<int> in(n, 0); 
         
         for(int i = 0; i < m; i++){
             g[prerequisites[i][1]].push_back(prerequisites[i][0]);
