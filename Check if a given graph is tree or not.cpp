@@ -2,7 +2,7 @@ class Solution {
   public:
     int isTree(int n, int m, vector<vector<int>> &edge) {
         if(m != n - 1)
-            return 0;
+            return 0; 
             
         vector<int> vis(n, 0);
         vector<vector<int>> g(n);
