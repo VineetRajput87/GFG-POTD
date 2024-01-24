@@ -9,7 +9,7 @@ class Solution {
         
         for(int i = 0; i < m; i++){
             g[edge[i][0]].push_back(edge[i][1]);
-            g[edge[i][1]].push_back(edge[i][0]);
+            g[edge[i][1]].push_back(edge[i][0]); 
         }
         
         function<bool(int, int)> dfs = [&](int node, int parent) -> bool {
