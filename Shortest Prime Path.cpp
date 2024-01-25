@@ -12,7 +12,7 @@ public:
       unordered_set<int> st;
       for(int i=1000;i<10000;i++) if(prime[i]) st.insert(i);
       queue<pair<int,int>> q;
-      q.push({0,Num1});
+      q.push({0,Num1}); 
       while(!q.empty())
       {
           int dist = q.front().first;
