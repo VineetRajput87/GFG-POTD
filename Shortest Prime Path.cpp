@@ -2,7 +2,7 @@ class Solution{
 public:
     int solve(int Num1,int Num2){
     vector<int> prime(10000,1);
-      for(int i=2;i*i<10000;i++)
+      for(int i=2;i*i<10000;i++) 
       {
           if(prime[i])
           {
