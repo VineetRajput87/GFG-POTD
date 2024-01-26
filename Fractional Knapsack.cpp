@@ -1,5 +1,5 @@
 class Solution
-{
+{ 
     public:
     //Function to get the maximum total value in the knapsack.
     double fractionalKnapsack(int W, Item arr[], int n)
