@@ -1,6 +1,6 @@
 class Solution{
 public:
-    static string matrixChainOrder(int p[], int n) {
+    static string matrixChainOrder(int p[], int n) { 
         vector<vector<int>> m(n, vector<int>(n, 0));
         vector<vector<int>> s(n, vector<int>(n, 0));
 
