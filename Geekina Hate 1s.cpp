@@ -6,7 +6,7 @@ class Solution {
             
             // n! / ((n - r)! * r!)
             
-            for(long long i = n; i > max(r, n - r); i--)
+            for(long long i = n; i > max(r, n - r); i--) 
                 ans *= i; 
                 
             long long den = 1;
