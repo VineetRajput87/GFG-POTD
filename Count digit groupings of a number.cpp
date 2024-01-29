@@ -4,7 +4,7 @@ class Solution{
 	    if(ind==n) return 1;
 	    if(dp[ind][sum]!=-1) return dp[ind][sum];
 	    int ans=0, curr=0; 
-	    for(int i=ind;i<n;i++){
+	    for(int i=ind;i<n;i++){ 
 	        curr+=str[i]-'0';
 	        if(curr>=sum){
 	            ans+=solve(i+1, curr, str, n, dp);
