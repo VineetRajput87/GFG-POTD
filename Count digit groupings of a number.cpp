@@ -3,7 +3,7 @@ class Solution{
 	int solve(int ind, int sum, string &str, int n, vector<vector<int>>&dp){
 	    if(ind==n) return 1;
 	    if(dp[ind][sum]!=-1) return dp[ind][sum];
-	    int ans=0, curr=0;
+	    int ans=0, curr=0; 
 	    for(int i=ind;i<n;i++){
 	        curr+=str[i]-'0';
 	        if(curr>=sum){
