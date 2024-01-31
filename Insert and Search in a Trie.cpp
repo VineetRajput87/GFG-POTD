@@ -9,7 +9,7 @@ class Solution
                     root = root -> children[i - 'a'];
                 }
                 else{
-                    TrieNode * new_node = getNode();
+                    TrieNode * new_node = getNode(); 
                     root -> children[i - 'a'] = new_node;
                     root = new_node;
                 }
