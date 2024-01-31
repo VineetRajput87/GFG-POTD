@@ -1,4 +1,4 @@
-class Solution
+class Solution 
 {
     public:
         //Function to insert string into TRIE.
