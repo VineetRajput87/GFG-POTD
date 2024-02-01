@@ -5,7 +5,7 @@ class Solution
     bool checkPangram (string s) {
         vector<int> f(26, 0);
         
-        for(auto i : s){
+        for(auto i : s){ 
             char cur = tolower(i);
             
             if(cur >= 'a' and cur <= 'z'){
