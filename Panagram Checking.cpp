@@ -7,7 +7,7 @@ class Solution
         
         for(auto i : s){ 
             char cur = tolower(i);
-            
+             
             if(cur >= 'a' and cur <= 'z'){
                 f[cur - 'a'] = 1;
             }
