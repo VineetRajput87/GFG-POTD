@@ -8,7 +8,7 @@ class Solution{
         
         if(s[index] == '-'){
             neg = 1;
-            ++index;
+            ++index; 
         }
         
 
