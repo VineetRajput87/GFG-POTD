@@ -11,7 +11,7 @@ class Solution{
             ++index;
         }
         
-        
+
         for(; index < s.size(); index++){
             if(isdigit(s[index])){
                 ans *= 10;
