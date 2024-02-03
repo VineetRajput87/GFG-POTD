@@ -10,7 +10,7 @@ class Solution
                 ans = (ans * 2LL) % MOD;
                 
                 ans = (ans + head -> data) % MOD;
-                
+                 
                 head = head -> next;
             }
             
