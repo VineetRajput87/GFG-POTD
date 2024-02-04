@@ -5,7 +5,7 @@ public:
         
         while(cur){
             Node * next = cur -> next;
-            cur -> next = prev;
+            cur -> next = prev; 
             prev = cur; 
             cur = next;
         }
