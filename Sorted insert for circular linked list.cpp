@@ -1,7 +1,7 @@
 class Solution
 {
     public:
-    Node *sortedInsert(Node* head, int data)
+    Node *sortedInsert(Node* head, int data) 
     {
         if(!head){
             Node * new_node = new Node(data);
