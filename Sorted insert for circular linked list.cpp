@@ -6,7 +6,7 @@ class Solution
         if(!head){
             Node * new_node = new Node(data);
             new_node -> next = new_node;
-            
+             
             return new_node;
         }
     
