@@ -4,7 +4,6 @@ class Solution
     HashSet<Node> set;
     int printKDistantfromLeaf(Node root, int k)
     {
-        // Write your code here
         set = new HashSet<>();
         dfs(root,k);
         return set.size();
