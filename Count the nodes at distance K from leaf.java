@@ -1,6 +1,5 @@
 class Solution
 {
-    //Function to return count of nodes at a given distance from leaf nodes.
     HashSet<Node> set;
     int printKDistantfromLeaf(Node root, int k)
     {
