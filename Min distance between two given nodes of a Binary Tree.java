@@ -1,6 +1,5 @@
 class GfG {
     int findDist(Node root, int a, int b) {
-        // Your code here
         Node LCA = lca(root, a, b);
         return findLevel(LCA, a) + findLevel(LCA, b);
         // return findLevel(LCA, a,0) + findLevel(LCA, b,0); //for dfs
