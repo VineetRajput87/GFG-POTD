@@ -7,7 +7,7 @@ class Solution{
         
         function<void(Node *, int)> dfs = [&](Node * node, int d) { 
             if(!node)
-                return;
+                return; 
                 
             dfs(node -> left, d + 1);
             dfs(node -> right, d + 1);
