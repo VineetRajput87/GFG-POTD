@@ -5,7 +5,7 @@ class Solution{
     {
         set<int> values;
         
-        function<void(Node *, int)> dfs = [&](Node * node, int d) {
+        function<void(Node *, int)> dfs = [&](Node * node, int d) { 
             if(!node)
                 return;
                 
