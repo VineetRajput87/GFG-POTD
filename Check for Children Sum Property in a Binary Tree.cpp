@@ -5,7 +5,7 @@ class Solution{
     int isSumProperty(Node *root)
     {
         function<int(Node *)> dfs = [&](Node * node) -> int {
-            if(!node or (!(node -> left) and !(node -> right)))
+            if(!node or (!(node -> left) and !(node -> right))) 
                 return 1;
                 
             int left = dfs(node -> left);
