@@ -2,7 +2,7 @@ class Solution{
 public:
     vector<int> recamanSequence(int n){
         // code here
-        vector<int>ans(n,0);
+        vector<int>ans(n,0); 
         set<int>s;
         for(int i=1;i<n;i++){
             int val=ans[i-1]-i;
