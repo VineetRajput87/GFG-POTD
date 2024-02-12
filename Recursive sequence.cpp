@@ -2,7 +2,7 @@ class Solution{
 public:
     int mod=1e9+7;
 
-    long long f(int term, int start, int n){
+    long long f(int term, int start, int n){ 
         if(term > n){
             return 0; 
         }
