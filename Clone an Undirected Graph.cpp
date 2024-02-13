@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     unordered_map<Node*, Node*>mp; 
 
     Node* cloneGraph(Node* node) {
