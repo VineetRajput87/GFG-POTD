@@ -1,6 +1,6 @@
 class Solution {
 public:
-    unordered_map<Node*, Node*>mp;
+    unordered_map<Node*, Node*>mp; 
 
     Node* cloneGraph(Node* node) {
         if(node==NULL) return NULL;
