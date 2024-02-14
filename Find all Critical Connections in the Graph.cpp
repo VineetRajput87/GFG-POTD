@@ -5,7 +5,7 @@ public:
     vector<vector<int>>ans;
     int time=0;
     void dfs(int u, vector<int>&tin, vector<int>&lowest, vector<int>&parent, vector<int>adj[]){ 
-        tin[u] = lowest[u] =time++;
+        tin[u] = lowest[u] =time++; 
         
         for(int i=0;i<adj[u].size();i++){
             int v=adj[u][i];
