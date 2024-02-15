@@ -9,7 +9,7 @@ public:
 	            if(paths[i][j]==1){
 	                count++;
 	            }
-	        }
+	        } 
 	        if(count % 2==1){
 	            return false;
 	        }
