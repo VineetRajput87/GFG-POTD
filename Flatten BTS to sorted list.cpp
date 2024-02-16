@@ -5,7 +5,7 @@ public:
     {
         if (curr == NULL)
             return;
-        inorder(curr->left, prev);
+        inorder(curr->left, prev); 
         prev->left = NULL;
         prev->right = curr;
         prev = curr;
