@@ -1,6 +1,6 @@
 class Solution
 {
-public:
+public: 
     void inorder(Node *curr, Node *&prev)
     {
         if (curr == NULL)
