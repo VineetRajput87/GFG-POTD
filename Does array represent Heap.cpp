@@ -9,6 +9,6 @@ class Solution{
             if(j+1<n and arr[j+1]>arr[i])return false;
             j+=2;
         }
-        return true;
+        return true; 
     }
 };
