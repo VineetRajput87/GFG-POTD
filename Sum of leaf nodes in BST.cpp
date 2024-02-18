@@ -9,7 +9,7 @@ class Solution
             if(!(node -> left) and !(node -> right))
                 ans += node -> data;
             
-            dfs(node -> left, ans);
+            dfs(node -> left, ans); 
             dfs(node -> right, ans);
         }
         
