@@ -4,7 +4,7 @@ class Solution
         /*You are required to complete below method */
         void dfs(Node * node, int &ans) {
             if(!node)
-                return;
+                return; 
                 
             if(!(node -> left) and !(node -> right))
                 ans += node -> data;
