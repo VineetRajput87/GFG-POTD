@@ -2,7 +2,7 @@ class Solution{
 public:
         int minValue(string s, int k){
         // code here
-        unordered_map<char,int> mm;
+        unordered_map<char,int> mm; 
         for(auto x:s)mm[x]++;
         priority_queue<int> pq;
         for(auto x:mm)pq.push(x.second);
