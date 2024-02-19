@@ -9,7 +9,7 @@ public:
         int ans = 0;
         while(k--){
             int temp = pq.top();
-            pq.pop();
+            pq.pop(); 
             temp--;
             pq.push(temp);
         }
