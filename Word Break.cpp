@@ -11,7 +11,7 @@ bool solve(string A, unordered_map<string,int>&mp, int ind){
             if(mp.find(s)!=mp.end()){
                 if(solve(A, mp, i+1)){
                     return true;
-                }
+                } 
             }
         }
         return false;
