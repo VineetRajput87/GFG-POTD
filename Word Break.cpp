@@ -1,7 +1,7 @@
 class Solution
 {
 public:
-bool solve(string A, unordered_map<string,int>&mp, int ind){
+bool solve(string A, unordered_map<string,int>&mp, int ind){ 
         if(ind>=A.length()){
             return true;
         }
