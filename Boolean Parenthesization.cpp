@@ -1,7 +1,7 @@
 // User function Template for C++
 
 class Solution {
-public:
+public: 
     int dp[101][101][2];
     int solve(string s, int i, int j, int isTrue)
     {
