@@ -6,7 +6,7 @@ class Solution
         if(j==t.length())return 1;
         if(i==s.length())return 0;
         if(dp[i][j]!=-1)return dp[i][j];
-        int a = 0,b = 0;
+        int a = 0,b = 0; 
         if(s[i]==t[j]){
             a=help(s,t,i+1,j+1,dp);
         }
