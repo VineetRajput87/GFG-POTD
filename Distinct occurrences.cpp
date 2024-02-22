@@ -2,7 +2,7 @@ class Solution
 {
     public:
     int mod = 1e9+7;
-    int help(string s,string t,int i,int j,vector<vector<int>> &dp){
+    int help(string s,string t,int i,int j,vector<vector<int>> &dp){ 
         if(j==t.length())return 1;
         if(i==s.length())return 0;
         if(dp[i][j]!=-1)return dp[i][j];
