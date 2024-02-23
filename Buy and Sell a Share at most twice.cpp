@@ -8,7 +8,7 @@ class Solution
             int n=price.size();
             vector<int>temp(n,0);
             
-            //first traversal was from right to left
+            //first traversal was from right to left 
             int maxi=price[n-1];
             for(int i=n-2;i>=0;i--){
                 maxi=max(maxi, price[i]);
