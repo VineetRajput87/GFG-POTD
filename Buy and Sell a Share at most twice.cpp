@@ -6,7 +6,7 @@ class Solution
         int maxProfit(vector<int>&price){
             //Write your code here..
             int n=price.size();
-            vector<int>temp(n,0);
+            vector<int>temp(n,0); 
             
             //first traversal was from right to left 
             int maxi=price[n-1];
