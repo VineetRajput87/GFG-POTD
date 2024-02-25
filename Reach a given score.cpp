@@ -1,7 +1,7 @@
 class Solution
 {
     public:
-    // Complete this function 
+    // Complete this function  
     long long int count(long long int n)
     {
     	// Your code here
